@@ -24,7 +24,7 @@ export default function Projects() {
       tech: [<FaReact />, <FaJs />, <FaHtml5 />, <FaCss3Alt />],
       github: "https://github.com/Arun-k19/Attendance-spell.git",
       live: "#",
-      img: "/public/projects/AttendaceLogin.png",
+      img: "/projects/AttendaceLogin.png",
     },
     {
       title: "Portfolio Website",
@@ -32,7 +32,7 @@ export default function Projects() {
       tech: [<FaReact />, <FaCss3Alt />, <FaJs />],
       github: "https://github.com/Arun-k19/My-Portfolio.git",
       live: "#",
-      img: "/public/projects/myportfolio.png",
+      img: "/projects/myportfolio.png",
     },
     {
       title: "Learning Management System (LMS)",
@@ -40,7 +40,7 @@ export default function Projects() {
       tech: [<FaHtml5 />, <FaCss3Alt />, <FaJs />],
       github: "https://github.com/Arun-k19/LMS.git",
       live: "#",
-      img: "/public/projects/Lms.png",
+      img: "/projects/Lms.png",
     },
     {
       title: "Code Bug Buster",
@@ -48,7 +48,7 @@ export default function Projects() {
       tech: [<FaReact />, <FaJs />, <FaHtml5 />],
       github: "https://github.com/Arun-k19/Bug-Buster.git",
       live: "#",
-      img: "/public/projects/BugBuster.png",
+      img: "/projects/BugBuster.png",
     },
   ];
 
