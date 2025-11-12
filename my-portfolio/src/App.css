@@ -1,0 +1,64 @@
+/* 3D floating skill badges */
+@keyframes float3D {
+  0%, 100% { transform: translateY(0) rotateX(0deg) rotateY(0deg); }
+  25% { transform: translateY(-6px) rotateX(5deg) rotateY(5deg); }
+  50% { transform: translateY(-12px) rotateX(-5deg) rotateY(-5deg); }
+  75% { transform: translateY(-6px) rotateX(5deg) rotateY(-5deg); }
+}
+
+.skill-3d {
+  display: flex;
+  align-items: center;
+  background: rgba(255,255,255,0.15);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  animation: float3D 4s ease-in-out infinite;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-3d:hover {
+  transform: scale(1.1) rotateX(5deg) rotateY(5deg);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+}
+
+/* Floating tech icons */
+@keyframes floatOrb {
+  0%,100% { transform: translateY(0) rotate(0deg); opacity: 0.3; }
+  50% { transform: translateY(-15px) rotate(10deg); opacity: 0.8; }
+}
+
+.tech-orb {
+  position: absolute;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.2);
+  animation: floatOrb 6s ease-in-out infinite;
+  z-index: 1;
+}
+
+/* Tiny particles */
+@keyframes particleFloat {
+  0% { transform: translateY(0px); opacity: 0.2; }
+  50% { transform: translateY(-20px); opacity: 0.6; }
+  100% { transform: translateY(0px); opacity: 0.2; }
+}
+
+.particle {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  animation: particleFloat 8s ease-in-out infinite;
+  z-index: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tech-orb { font-size: 2rem; opacity: 0.15; }
+}
+
+
+
