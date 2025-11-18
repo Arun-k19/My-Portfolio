@@ -50,6 +50,15 @@ export default function Projects() {
       live: "#",
       img: "/projects/BugBuster.png",
     },
+   {
+  title: "Netflix Clone",
+  desc: "A fully responsive Netflix Clone built with React, TMDB API, and Firebase for user authentication. Users can browse, search, and stream movie trailers in a modern UI.",
+  tech: [<FaReact />, <FaJs />, <FaHtml5 />, <FaCss3Alt />],
+  github: "https://github.com/Arun-k19/Netflix-.git",
+  live: "#", // live link not yet hosted, keep as '#'
+  img: "/projects/Netflix.png",
+},
+
   ];
 
   return (
