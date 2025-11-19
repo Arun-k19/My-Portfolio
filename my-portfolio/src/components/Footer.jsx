@@ -64,7 +64,7 @@ export default function Footer() {
             },
             {
               icon: <FaLinkedin />,
-              link: "https://linkedin.com/in/arun-k19",
+              link: "https://www.linkedin.com/in/arun-k1921/",
               color: "#0A66C2",
             },
             {

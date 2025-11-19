@@ -113,7 +113,7 @@ export default function Contact() {
                   <FaGithub />
                 </a>
                 <a
-                  href="https://linkedin.com/"
+                  href="https://www.linkedin.com/in/arun-k1921/"
                   target="_blank"
                   rel="noreferrer"
                   className="text-white fs-4"
