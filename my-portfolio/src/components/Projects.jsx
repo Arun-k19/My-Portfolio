@@ -23,7 +23,7 @@ export default function Projects() {
       desc: "A digital attendance and spell tracking system designed to simplify class management for colleges.",
       tech: [<FaReact />, <FaJs />, <FaHtml5 />, <FaCss3Alt />],
       github: "https://github.com/Arun-k19/Attendance-spell.git",
-      live: "#",
+      live: "https://attendance-spell.vercel.app/",
       img: "/projects/AttendaceLogin.png",
     },
     {
@@ -31,7 +31,7 @@ export default function Projects() {
       desc: "My personal portfolio showcasing skills and projects, designed with React & AOS animations.",
       tech: [<FaReact />, <FaCss3Alt />, <FaJs />],
       github: "https://github.com/Arun-k19/My-Portfolio.git",
-      live: "#",
+      live: "https://arun-portfolio-ivory.vercel.app/",
       img: "/projects/myportfolio.png",
     },
     {
