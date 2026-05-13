@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 export default function Preloader() {
   const [text, setText] = useState("");
-  const fullText = "ARUN • PORTFOLIO📈";
+  const fullText = "ARUN PORTFOLIO📈";
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
