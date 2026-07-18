@@ -369,7 +369,7 @@ export default function Projects({ darkMode = true }) {
         { icon:<FaHtml5/>, label:"HTML"       },
       ],
       github: "https://github.com/Arun-k19/Bug-Buster.git",
-      live:   "#",
+      live:   "https://arun-k19.github.io/BugBuster/",
       img:    "/projects/BugBuster.png",
     },
     {
